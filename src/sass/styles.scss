@@ -1,6 +1,9 @@
 @import './header.scss';
 @import './menu.scss';
 @import './hero.scss';
+@import './why.scss';
+@import './latestArticles.scss';
+@import './footer.scss';
 
 :root{
     // primary
@@ -23,7 +26,7 @@ body{
     margin: 0;
     font-family: 'Public Sans', sans-serif;
     color: var(--grayishBlue);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .copy{
@@ -42,7 +45,7 @@ body{
 @mixin title {
     font-size: 2.5em;
     color: var(--darkBlue);
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1.3;
     margin: 0;
     margin-bottom: .5em;
@@ -61,4 +64,37 @@ body{
     border-radius: 1.5em;
     color: var(--white);
     background: linear-gradient(to right, var(--limeGreen) 0%, var(--brightCyan) 100%);
+}
+
+@mixin icon {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+}
+
+.icon{
+    &__facebook{
+        @include icon;
+        background: url('/images/icon-facebook.svg') no-repeat;
+    }
+
+    &__youtube{
+        @include icon;
+        background: url('/images/icon-youtube.svg') no-repeat;
+    }
+
+    &__twitter{
+        @include icon;
+        background: url('/images/icon-twitter.svg') no-repeat;
+    }
+
+    &__pinterest{
+        @include icon;
+        background: url('/images/icon-pinterest.svg') no-repeat;
+    }
+
+    &__instagram{
+        @include icon;
+        background: url('/images/icon-instagram.svg') no-repeat;
+    }
 }
