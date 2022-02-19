@@ -24,19 +24,19 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 }
 
 .menu {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: none;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 .menu__button {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 40px;
   height: 40px;
   background: no-repeat center url("/images/icon-hamburger.svg");
@@ -101,7 +101,7 @@
   margin-bottom: 2.5em;
 }
 .hero__image {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 300px;
   margin: 0 calc(-1 * var(--wrapperSpace));
   background: center no-repeat url(/images/image-mockups.png), url("/images/bg-intro-mobile.svg") center no-repeat;
@@ -121,7 +121,7 @@
   }
   .hero__content {
     position: relative;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     display: grid;
     align-items: center;
     min-height: 550px;
@@ -129,13 +129,13 @@
     grid-template-columns: 370px 1fr;
   }
   .hero__description {
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
   .hero__image {
     grid-area: image;
     min-height: inherit;
     position: absolute;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     width: 500px;
     left: 0;
     top: 0;
@@ -275,28 +275,28 @@
     grid-template-areas: "logo links button" "social links copyright";
   }
   .footer__links {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     grid-area: links;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: start;
   }
   .footer__logo {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     grid-area: logo;
     margin: initial;
   }
   .footer__social {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     grid-area: social;
   }
   .footer__button {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     grid-area: button;
     text-align: right;
   }
   .footer__copyright {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     grid-area: copyright;
     text-align: right;
   }
