@@ -39,7 +39,7 @@
   /* border: 1px solid green; */
   width: 40px;
   height: 40px;
-  background: no-repeat center url("/images/icon-hamburger.svg");
+  background: no-repeat center url("images/icon-hamburger.svg");
 }
 .menu a {
   text-decoration: none;
@@ -54,7 +54,7 @@
   display: none;
 }
 .menu__checkbox:checked ~ .menu__button {
-  background: no-repeat center url("/images/icon-close.svg");
+  background: no-repeat center url("images/icon-close.svg");
 }
 .menu__checkbox:checked ~ .menu {
   display: block;
@@ -104,7 +104,7 @@
   /* border: 1px solid red; */
   height: 300px;
   margin: 0 calc(-1 * var(--wrapperSpace));
-  background: center no-repeat url(/images/image-mockups.png), url("/images/bg-intro-mobile.svg") center no-repeat;
+  background: center no-repeat url(images/image-mockups.png), url("/images/bg-intro-mobile.svg") center no-repeat;
   background-size: 345px, cover;
   margin-bottom: 1.2em;
 }
@@ -114,7 +114,7 @@
 @media screen and (min-width: 768px) {
   .hero {
     text-align: left;
-    background: url("/images/bg-intro-desktop.svg") left 650px top -290px no-repeat;
+    background: url("images/bg-intro-desktop.svg") left 650px top -290px no-repeat;
     background-size: cover;
     min-height: 550px;
     box-sizing: border-box;
@@ -140,7 +140,7 @@
     left: 0;
     top: 0;
     height: 768px;
-    background: url(/images/image-mockups.png) left bottom no-repeat;
+    background: url(images/image-mockups.png) left bottom no-repeat;
     background-size: cover;
   }
 }
@@ -368,31 +368,31 @@ body {
   width: 25px;
   height: 25px;
   display: inline-flex;
-  background: url("/images/icon-facebook.svg") no-repeat;
+  background: url("images/icon-facebook.svg") no-repeat;
 }
 .icon__youtube {
   width: 25px;
   height: 25px;
   display: inline-flex;
-  background: url("/images/icon-youtube.svg") no-repeat;
+  background: url("images/icon-youtube.svg") no-repeat;
 }
 .icon__twitter {
   width: 25px;
   height: 25px;
   display: inline-flex;
-  background: url("/images/icon-twitter.svg") no-repeat;
+  background: url("images/icon-twitter.svg") no-repeat;
 }
 .icon__pinterest {
   width: 25px;
   height: 25px;
   display: inline-flex;
-  background: url("/images/icon-pinterest.svg") no-repeat;
+  background: url("images/icon-pinterest.svg") no-repeat;
 }
 .icon__instagram {
   width: 25px;
   height: 25px;
   display: inline-flex;
-  background: url("/images/icon-instagram.svg") no-repeat;
+  background: url("images/icon-instagram.svg") no-repeat;
 }
 
 /*# sourceMappingURL=styles.css.map */
