@@ -10,7 +10,7 @@
         // border: 1px solid red;
         height: 300px;
         margin: 0 calc(-1 * var(--wrapperSpace));
-        background: center no-repeat url(../../images/image-mockups.png), url('/images/bg-intro-mobile.svg') center no-repeat;
+        background: center no-repeat url(../../images/image-mockups.png), url(../../images/bg-intro-mobile.svg) center no-repeat;
         background-size: 345px, cover;
         margin-bottom: 1.2em;
     }

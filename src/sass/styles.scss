@@ -75,26 +75,26 @@ body{
 .icon{
     &__facebook{
         @include icon;
-        background: url('/images/icon-facebook.svg') no-repeat;
+        background: url(../../images/icon-facebook.svg) no-repeat;
     }
 
     &__youtube{
         @include icon;
-        background: url('/images/icon-youtube.svg') no-repeat;
+        background: url(../../images/icon-youtube.svg) no-repeat;
     }
 
     &__twitter{
         @include icon;
-        background: url('/images/icon-twitter.svg') no-repeat;
+        background: url(../../images/icon-twitter.svg) no-repeat;
     }
 
     &__pinterest{
         @include icon;
-        background: url('/images/icon-pinterest.svg') no-repeat;
+        background: url(../../images/icon-pinterest.svg) no-repeat;
     }
 
     &__instagram{
         @include icon;
-        background: url('/images/icon-instagram.svg') no-repeat;
+        background: url(../../images/icon-instagram.svg) no-repeat;
     }
 }
